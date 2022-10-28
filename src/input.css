@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-white font-body;
+  }
+  a {
+    @apply hover:text-blue-700 transition-all;
+  }
+  .submit {
+    @apply rounded-md bg-blue-500 hover:bg-blue-700 transition-all text-white px-5 py-2.5 hover:text-gray-50;
+  }
+}
