@@ -10,3 +10,7 @@ mobileIcon.addEventListener("click", () => {
     navbar.style.marginLeft = "0px";
   }
 });
+
+addEventListener("resize", () => {
+  navbar.removeAttribute("style");
+});
