@@ -1,32 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url(base.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  body {
-    @apply bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-white font-body;
-  }
-
-  a {
-    @apply hover:text-blue-700 transition-all;
-  }
-
-  thead {
-    @apply uppercase;
-  }
-
-  tr {
-    @apply border-b dark:border-b-gray-600 last:border-b-0;
-  }
-  th {
-    @apply py-3 px-6 border-b dark:border-b-gray-600 dark:bg-gray-600;
-  }
-  td {
-    @apply py-3 px-6 last:text-right;
-  }
-  .submit {
-    @apply rounded-md bg-blue-500 hover:bg-blue-700 transition-all text-white px-5 py-2.5 hover:text-gray-50;
-  }
-}

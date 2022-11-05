@@ -1,0 +1,55 @@
+@layer components {
+  body {
+    @apply bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-white font-body;
+  }
+
+  a {
+    @apply hover:text-blue-700 transition-all;
+  }
+
+  thead {
+    @apply uppercase;
+  }
+
+  tr {
+    @apply border-b dark:border-b-gray-600 last:border-b-0;
+  }
+
+  th {
+    @apply py-3 px-6 border-b dark:border-b-gray-600 dark:bg-gray-600;
+  }
+
+  td {
+    @apply py-3 px-6 last:text-right;
+  }
+
+  .submit {
+    @apply rounded-md bg-blue-500 hover:bg-blue-700 transition-all text-white px-5 py-2.5 hover:text-gray-50;
+  }
+
+  label {
+    @apply block mb-2 text-sm font-medium;
+  }
+
+  input,
+  select {
+    @apply border p-2 border-gray-300 rounded-md outline-none bg-gray-50 dark:border-gray-600 dark:bg-gray-700;
+  }
+
+  .box-primary {
+    @apply bg-white border border-gray-100 dark:border-gray-700 dark:bg-gray-900 shadow-lg rounded-lg mx-2 md:mx-0;
+  }
+
+  .page-title {
+    @apply text-2xl font-bold leading-tight tracking-tight;
+  }
+
+  .card {
+    /* @apply mb-4 bg-white md:w-1/4 shadow-md p-4 text-center rounded-md border border-gray-300 dark:bg-gray-900 dark:text-white dark:border-gray-700; */
+    @apply text-center p-4 md:w-1/4 mb-4 md:mb-0;
+  }
+
+  .nav-links {
+    @apply text-gray-300 font-medium flex items-center mx-4 p-2 rounded-lg hover:bg-gray-800 hover:text-gray-50 hover:border-gray-700 transition-all border border-gray-900;
+  }
+}

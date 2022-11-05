@@ -14,3 +14,10 @@ mobileIcon.addEventListener("click", () => {
 addEventListener("resize", () => {
   navbar.removeAttribute("style");
 });
+
+const showFilters = document.querySelector("#show-filters");
+const filters = document.querySelector("#filters");
+
+showFilters.addEventListener("click", () => {
+  filters.classList.toggle("hidden");
+});
