@@ -52,4 +52,8 @@
   .nav-links {
     @apply text-gray-300 font-medium flex items-center mx-4 p-2 rounded-lg hover:bg-gray-800 hover:text-gray-50 hover:border-gray-700 transition-all border border-gray-900;
   }
+
+  .active-nav-link {
+    @apply bg-gray-800 border-gray-700 text-gray-50;
+  }
 }
